@@ -4482,6 +4482,12 @@
     "link": "https://www.elejandria.com/libro/evangelio-de-maria-magdalena/anonimo/1896"
   },
   {
+    "tittle": "EVANGELIO DE PEDRO",
+    "author": "ANÓNIMO",
+    "img": "https://www.elejandria.com/covers/Evangelio_de_Pedro-Anonimo-md.png",
+    "link": "https://www.elejandria.com/libro/evangelio-de-pedro/anonimo/1956"
+  },
+  {
     "tittle": "EVANGELIO DE TOMÁS",
     "author": "ANÓNIMO",
     "img": "https://www.elejandria.com/covers/Evangelio_de_Tomas-Anonimo-md.png",
@@ -5418,6 +5424,12 @@
     "link": "https://www.elejandria.com/libro/la-busca-del-absoluto/balzac-honore-de/784"
   },
   {
+    "tittle": "LA BÚSQUEDA DE IRANON",
+    "author": "H. P. LOVECRAFT",
+    "img": "https://www.elejandria.com/covers/La_busqueda_de_Iranon-H._P._Lovecraft-md.png",
+    "link": "https://www.elejandria.com/libro/la-busqueda-de-iranon/h-p-lovecraft/1953"
+  },
+  {
     "tittle": "LA CABAÑA DEL TÍO TOM",
     "author": "HARRIET BEECHER STOWE",
     "img": "https://www.elejandria.com/covers/La_cabana_del_Tio_Tom-Harriet_Beecher_Stowe-md.png",
@@ -5674,6 +5686,12 @@
     "author": "ALEJANDRO DUMAS (PADRE)",
     "img": "https://www.elejandria.com/covers/La_dama_de_Monsoreau-Alejandro_Dumas_Padre-md.png",
     "link": "https://www.elejandria.com/libro/la-dama-de-monsoreau/alejandro-dumas-padre/1293"
+  },
+  {
+    "tittle": "LA DAMA DE PICAS",
+    "author": "ALEKSANDR PUSHKIN",
+    "img": "https://www.elejandria.com/covers/La_dama_de_picas-Aleksandr_Pushkin-md.png",
+    "link": "https://www.elejandria.com/libro/la-dama-de-picas/aleksandr-pushkin/1954"
   },
   {
     "tittle": "LA DAMA DEL PERRITO",
@@ -6646,6 +6664,12 @@
     "author": "HANS CHRISTIAN ANDERSEN",
     "img": "https://www.elejandria.com/covers/La_sirenita-Hans_Christian_Andersen-md.png",
     "link": "https://www.elejandria.com/libro/la-sirenita/hans-christian-andersen/831"
+  },
+  {
+    "tittle": "LA SOMBRA",
+    "author": "BENITO PÉREZ GALDÓS",
+    "img": "https://www.elejandria.com/covers/La_sombra-Benito_Perez_Galdos-md.png",
+    "link": "https://www.elejandria.com/libro/la-sombra/benito-perez-galdos/1955"
   },
   {
     "tittle": "LA SOMBRA",
@@ -7734,6 +7758,12 @@
     "link": "https://www.elejandria.com/libro/los-tres-pelos-de-oro-del-diablo/hermanos-grimm/1205"
   },
   {
+    "tittle": "LOS ÚLTIMOS DÍAS DE JOHN BROWN",
+    "author": "HENRY DAVID THOREAU",
+    "img": "https://www.elejandria.com/covers/Los_ultimos_dias_de_John_Brown-Henry_David_Thoreau-md.png",
+    "link": "https://www.elejandria.com/libro/los-ultimos-dias-de-john-brown/henry-david-thoreau/1960"
+  },
+  {
     "tittle": "LOS VIAJES DE GULLIVER",
     "author": "JONATHAN SWIFT",
     "img": "https://www.elejandria.com/covers/Los_viajes_de_Gulliver-Jonathan_Swift-md.png",
@@ -7806,6 +7836,12 @@
     "link": "https://www.elejandria.com/libro/naufragios/alvar-nunez-cabeza-de-vaca/1635"
   },
   {
+    "tittle": "NAZARÍN",
+    "author": "BENITO PÉREZ GALDÓS",
+    "img": "https://www.elejandria.com/covers/Nazarin-Benito_Perez_Galdos-md.png",
+    "link": "https://www.elejandria.com/libro/nazarin/benito-perez-galdos/1957"
+  },
+  {
     "tittle": "NIEBLA",
     "author": "UNAMUNO, MIGUEL",
     "img": "https://www.elejandria.com/covers/Niebla-Unamuno_Miguel-md.png",
@@ -7870,6 +7906,12 @@
     "author": "MACHADO, ANTONIO",
     "img": "https://www.elejandria.com/covers/Nuevas_canciones-Machado_Antonio-md.png",
     "link": "https://www.elejandria.com/libro/nuevas-canciones/machado-antonio/1162"
+  },
+  {
+    "tittle": "NYARLATHOTEP",
+    "author": "H. P. LOVECRAFT",
+    "img": "https://www.elejandria.com/covers/Nyarlathotep-H._P._Lovecraft-md.png",
+    "link": "https://www.elejandria.com/libro/nyarlathotep/h-p-lovecraft/1959"
   },
   {
     "tittle": "O'DONNELL",
@@ -8308,6 +8350,12 @@
     "author": "ALAS CLARÍN, LEOPOLDO",
     "img": "https://www.elejandria.com/covers/Protesto-Alas_Clarin_Leopoldo-md.png",
     "link": "https://www.elejandria.com/libro/protesto/alas-clarin-leopoldo/1472"
+  },
+  {
+    "tittle": "PROTOEVANGELIO DE SANTIAGO",
+    "author": "ANÓNIMO",
+    "img": "https://www.elejandria.com/covers/Protoevangelio_de_Santiago-Anonimo-md.png",
+    "link": "https://www.elejandria.com/libro/protoevangelio-de-santiago/anonimo/1958"
   },
   {
     "tittle": "PSICOLOGÍA DE LAS MASAS",

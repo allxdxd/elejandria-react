@@ -1,3 +1,4 @@
+
 export async function booksFromLetter(letter, browser, show = true) {
   const page = await browser.newPage()
 
@@ -31,7 +32,7 @@ export async function booksFromLetter(letter, browser, show = true) {
       }
       data.push(temp)
     })
-
+    
     return data
   })
 
@@ -42,3 +43,4 @@ export async function booksFromLetter(letter, browser, show = true) {
   await page.close()
   return books
 }
+

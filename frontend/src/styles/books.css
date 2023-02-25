@@ -1,0 +1,43 @@
+.containerbooks {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.book {
+  height: 300px;
+  display: flex;
+  margin: 5px;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  color: #222f3e;
+  font-weight: bold;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn{
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  color: #222f3e;
+  background-color: #c8d6e5;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+:root{
+    --yellow: #ffdd59;
+    --time: .5s
+}
+
+.load {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  display: grid;
+  place-content: center;
+
+  width: 100px;
+  height: 100px;
+
+  color: #d2dae2;
+  border: 2px solid #d2dae2;
+  transform: rotateZ(45deg);
+  animation: animate var(--time) linear alternate infinite;
+}
+
+@keyframes animate {
+  0% {
+    border-radius: 50% 50% 0% 50%;
+  }
+  50% {
+    border-radius: 50% 50% 0% 50%;
+    background: var(--yellow);
+  }
+  100%{
+    transform: rotateZ(405deg);
+  }
+}
+

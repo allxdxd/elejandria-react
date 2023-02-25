@@ -10,7 +10,7 @@ const letters = [...'ABCDEFGHIJKLNOPRSTUVWYZ'.toLowerCase()]
   const browser = await puppeteer.launch({ headless: true })
 
   for (let i = 0; i < letters.length; i++) {
-    let temp = await booksFromLetter(letters[i], browser, false)
+    let temp = await booksFromLetter(letters[i], browser, true)
     books.push(temp)
   }
 
@@ -26,4 +26,5 @@ const letters = [...'ABCDEFGHIJKLNOPRSTUVWYZ'.toLowerCase()]
     }
     console.log(`${books.length} books have been saved`)
   })
+
 })()
