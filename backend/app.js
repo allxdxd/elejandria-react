@@ -33,6 +33,13 @@ app.get('/api/titulos', (req, res) => {
   res.json(titulos)
 })
 
+app.get('/api/titulos-autores', (req, res) => {
+  let titulos = books.map((e) => e.tittle)
+  let autores = books.map((e) => e.author)
+  let total = [...titulos, autores]
+  res.json(total)
+})
+
 app.get('/api/libros-aleatorios/:n', (req, res) => {
   let n = req.params.n
   let arrayOfIndexs = []
