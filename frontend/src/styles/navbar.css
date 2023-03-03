@@ -72,8 +72,10 @@
     transition: 0.2s linear;
   }
   .re {
-    width: 100%;
+    width: 90%;
     position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 20;
     display: flex;
     background: #222f3e;
@@ -84,7 +86,10 @@
     border-radius: 20px;
     overflow: hidden;
     justify-content: space-evenly;
-    animation: created 0.5s ease-in-out;
+    animation: created .2s ease-in-out;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
   }
   .ico {
     z-index: 21;

@@ -33,11 +33,17 @@ app.get('/api/titulos', (req, res) => {
   res.json(titulos)
 })
 
-app.get('/api/titulos-autores', (req, res) => {
-  let titulos = books.map((e) => e.tittle)
-  let autores = books.map((e) => e.author)
-  let total = [...titulos, autores]
-  res.json(total)
+app.get('/api/buscar/:texto', (req, res) => {
+  let text = req.params.texto.toUpperCase()
+  let searchtitle = books.filter(e=>{
+    return  e.tittle.slice(0,text.length) == text
+  })
+  let searchauthor = books.filter(e=>{
+    return  e.author.slice(0,text.length) == text
+  })
+
+  // res.json([...new Set([...searchauthor, searchtitle])])
+  res.json([...searchauthor, searchtitle])
 })
 
 app.get('/api/libros-aleatorios/:n', (req, res) => {
