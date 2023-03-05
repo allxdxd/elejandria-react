@@ -69,7 +69,6 @@
 @media (max-width: 400px) {
   .menu {
     display: none;
-    transition: 0.2s linear;
   }
   .re {
     width: 90%;
@@ -78,7 +77,7 @@
     transform: translateX(-50%);
     z-index: 20;
     display: flex;
-    background: #222f3e;
+    background: #222f3e6c;
     font-size: 12px;
     flex-direction: column;
     height: 80vh;
