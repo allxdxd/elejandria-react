@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/books.css'
 
 function Book({ title, author, img }) {

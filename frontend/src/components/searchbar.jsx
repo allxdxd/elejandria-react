@@ -3,17 +3,26 @@ import '../styles/searchBar.css'
 
 function Suggest({ title, author, isSelect, setselected, index }) {
   return (
-    <div onMouseOver={ ()=> setselected(index)} className={`suggestText ${isSelect && 'selected'}`}>
-      <div className='title'>{title}</div>
+    <div
+      onMouseOver={() => {
+        setselected(index)
+      }}
+      className={`suggestText ${isSelect && 'selected'}`}
+    >
+      <div className='title'> {title}</div>
       <div className='author'>{author}</div>
     </div>
   )
 }
 
-export default function SearchBar() {
+export default function SearchBar({ setinfo }) {
   const [suggest, setsuggest] = useState([''])
   const [searchtext, setsearchtext] = useState('')
   const [selected, setselected] = useState(0)
+
+  useEffect(()=>{
+    setinfo(suggest[selected])
+  },[selected])
 
   useEffect(() => {
     let words = searchtext !== '' ? searchtext : '""'
@@ -23,8 +32,33 @@ export default function SearchBar() {
         let tosave = res.flat().length < 10 ? res.flat() : res.slice(0, 10)
         if (tosave.length === 1) tosave = tosave.flat().slice(0, 10)
         setsuggest(tosave)
-      }).catch(()=>setsearchtext(''))
-    
+      })
+      .catch(() => setsearchtext(''))
+
+    document.onkeydown = (e) => {
+      switch (e.keyCode) {
+        case 38:
+          // let str = 'Up Key pressed!'
+          // console.log(str)
+          e.preventDefault()
+          setselected((a) => {
+            if (a < 2) scroll(0, 0)
+            if (a < 4) scroll(0, 200)
+            return a !== 0 ? a - 1 : 0
+          })
+          break
+        case 40:
+          // let str = 'Down Key pressed!'
+          // console.log(str)
+          e.preventDefault()
+          setselected((a) => {
+            if (a > 2) scroll(0, 200)
+            if (a > 4) scroll(0, 500)
+            return a !== 9 ? a + 1 : 9
+          })
+          break
+      }
+    }
   }, [searchtext])
 
   return (
@@ -52,7 +86,8 @@ export default function SearchBar() {
                 author={e.author}
                 isSelect={i === selected}
                 setselected={setselected}
-                index = {i}
+                index={i}
+                setinfo={setinfo}
               />
             )
           })}
